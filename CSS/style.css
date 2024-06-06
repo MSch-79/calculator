@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.container {
+    background-color: #c9dfe2;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 192, 192);
+    box-shadow: 4px 4px 1px rgb(106, 104, 104);
+    font-family: "Lato", sans-serif;
+    margin-top: 50px;
+    margin: 200px auto;
+    max-width: 700px;
+    padding: 0 20px;
+    overflow-x: auto;
+}
+
+.container__paragraph {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.form__fieldset {
+    background-color: #FDE49E;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px 1px rgb(106, 104, 104);
+    margin-top: 18px;
+}
+
+.form__legend {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 1px whitesmoke;
+    padding-left: 10px;
+    letter-spacing: 0.8px;
+
+}
+
+.form__paragraph {
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.form__labelText {
+    font-size: 22px;
+    padding: 10px 10px;
+
+}
+
+.form__input {
+    border-radius: 5px;
+    border: 1px solid rgb(194, 192, 192);
+    font-size: 22px;
+    padding: 5px 15px;
+    box-shadow: 4px 4px 1px #f0501f;
+}
+
+.result {
+    color: #f0501f;
+    font-size: 36px;
+    font-weight: 900;
+    text-shadow: 2px 1px 1px rgb(53, 52, 52);
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid rgb(194, 192, 192);
+    box-shadow: 4px 4px 2px #f0501f;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttonReset {
+    border-radius: 5px;
+    border: 1px solid rgb(194, 192, 192);
+    box-shadow: 4px 4px 2px #f0501f;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.buttonReset {
+    cursor: pointer;
+}
+
+body {
+    background-image: url(Money_Coins_Banknotes_Euro_Gray_background_Piggy_570714_1280x863.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #c6c6c6;
+}

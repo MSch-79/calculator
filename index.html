@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MODUL 5</title>
+    <link rel="icon" href="Icon/calculator-icon-picture-free-stock-calculator-white-icon-1155343545289pqze7fi8.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <link rel="stylesheet" href="CSS/article.css"/>
+    <script defer src="JS/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Currency Calculator</legend>
+          <p></p>
+          <p class="form__paragraph">Fields marked with an * are required. </p>
+          <label for="valueInPLN">
+            <span class="form__labelText">Amount in PLN*: </span>
+          </label>
+          <input
+            class="form__input js-unitsPln"
+            type="number"
+            id="valueInPLN"
+            name="valueInPLN"
+            placeholder="PLN"
+            required
+            autofocus
+            step="0.01"
+            min="0"
+            max="1000000"/>
+          <p></p>
+          <p></p>
+          <label class="label" for="currency">
+            <span class="form__labelText"> Currency*: </span>
+            <select
+              class="form__input js-currency"
+              name="currency"
+              id="currency" >
+              <option value="EUR">EUR</option>
+              <option value="USD" selected>USD</option>
+              <option value="GBP">GBP</option>
+            </select>
+          </label>
+         <br>
+         <br>
+          <button class="button js-button" type="submit">Calculate</button>
+          <button class="buttonReset js-buttonReset" type="reset">Clear</button>
+        </fieldset>
+      </form>
+      <p class="container__paragraph">
+        Result: <span class="result js-result">N/A</span>
+      </p>
+    </div>
+    <p></p>
+  </body>
+</html>
+
+
+
+
