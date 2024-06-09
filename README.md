@@ -1,6 +1,6 @@
 ﻿# Currency - calculator
 
-Link
+Link: 
 https://msch-79.github.io/calculator/
 
 ## Description
