@@ -97,6 +97,11 @@ html {
 }
 
 body {
+    flex-basis: 700px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-items: center;
     background-image: url(Money_Coins_Banknotes_Euro_Gray_background_Piggy_570714_1280x863.jpg);
     background-repeat: no-repeat;
     background-position: center;
